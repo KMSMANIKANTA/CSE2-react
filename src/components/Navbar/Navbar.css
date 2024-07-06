@@ -75,7 +75,7 @@ p:hover:after{
 }
 @media screen and (max-width:767px) {
   .navbar {
-    padding: 10px 20px;
+    padding:0px 0px;
   }
   .navlinks {
     position: fixed;
@@ -94,6 +94,9 @@ p:hover:after{
   }
   .logo{
     z-index: -2;
+    position: fixed;
+    top:20px;
+    left:20px;
   }
   .navbar .navlinks .link p{
     color: white;
@@ -104,6 +107,8 @@ p:hover:after{
   .toggle {
     display: block;
     position: fixed;
+    width:30px;
+    height:30px;
     top: 20px;
     right: 20px;
     font-size: 20px;
