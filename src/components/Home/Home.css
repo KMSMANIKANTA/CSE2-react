@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   align-items: center;
   color:white;
+  min-height: 100vh;
 }
 .left{
   width:54%;
@@ -46,6 +47,7 @@
     width:80%;
     margin:auto;
   }
+  
 }
 @media screen and (max-width:767px){
   .home{
@@ -53,6 +55,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    min-height: 100vh;
   }
   .carousel{
     width:100%;

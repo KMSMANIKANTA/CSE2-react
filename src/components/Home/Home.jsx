@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Home.css'
 import Carousel from './Carousel'
+import Footer from '../Footer/Footer'
 const Home = () => {
   return (
     <>
@@ -20,7 +21,7 @@ const Home = () => {
           </div>
       </div>
     </div>
-
+      <Footer/>
     </>
   )
 }
