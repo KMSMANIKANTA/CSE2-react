@@ -8,7 +8,7 @@
 .left{
   width:54%;
   margin-top: 50px;
-  z-index: -1;
+  z-index: 0;
   margin-right: 20px;
 }
 .right{
@@ -21,7 +21,7 @@
   justify-content: space-evenly;
   flex-direction: column;
   margin-top: 50px;
-  z-index: -1;
+  z-index: 0;
 }
 .right .content span{
   font-size: 20px;
@@ -35,7 +35,6 @@
 .carousel{
   width:500px;
   max-width: 520px;
-  z-index: -1;
 }
 @media screen and (min-width:768px) and (max-width:1024px) {
   .home{
