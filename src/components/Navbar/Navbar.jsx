@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="logo">
-      <img src={logo} alt="CSE-2" />
+        CSE2
     </div>
     <div className={`navlinks ${toggle?'activelinks':''}`}>
       <NavLink to='/' className={(e)=>{

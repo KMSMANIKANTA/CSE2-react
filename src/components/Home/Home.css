@@ -14,8 +14,8 @@
 }
 .right{
   width:35%;
-  border:1px solid red;
-  box-shadow: 0px 0px 10px brown;
+  border:1px solid aqua;
+  box-shadow: 0px 0px 10px #eff;
   padding:10px;
   font-size: 18px;
   display: flex;
