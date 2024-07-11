@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.jpg'
 import { FaBarsStaggered } from "react-icons/fa6";
@@ -6,7 +6,9 @@ import { RxCrossCircled } from "react-icons/rx";
 
 import { NavLink } from 'react-router-dom'
 const Navbar = () => {
+  
   const [toggle,setToggle]=useState(false)
+  
   return (
     <div className='navbar'>
       <div className="logo">

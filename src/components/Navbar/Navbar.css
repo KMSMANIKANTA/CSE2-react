@@ -1,7 +1,7 @@
 .navbar{
   width:100%;
   display: flex;
-  padding:10px 100px;
+  padding:20px 100px;
   position: fixed;
   top:0px;
   right:0px;
@@ -67,11 +67,10 @@ p:hover:after{
   font-size: 25px;
   top:20px
 }
-@media screen and (min-width:768px) and (max-width:1000px){
+@media screen and (min-width:768px) and (max-width:1024px){
   .navbar{
-    padding:0px 4%;
+    padding:20px 4%;
   }
-
 }
 @media screen and (max-width:767px) {
   .navbar {
@@ -84,13 +83,14 @@ p:hover:after{
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: -1;
+    z-index: 100;
     background-color:rgba(0,0,0,0.9);
     left:0px;
     height:100vh;
     padding:40% 0px;
     justify-content: space-evenly;
     transition: 0.45s;
+  
   }
   .logo{
     z-index: -2;
@@ -113,5 +113,6 @@ p:hover:after{
     right: 20px;
     font-size: 20px;
     color:white;
+    z-index: 100;
   }
 }
