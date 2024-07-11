@@ -49,6 +49,9 @@
 p:hover:after{
   width:75%;
 }
+p:hover{
+  transform: scale(1.1);
+}
 .activenav p:after{
   width:75%;
 }
