@@ -49,7 +49,7 @@
 p:hover:after{
   width:75%;
 }
-p:hover{
+.navbar p:hover{
   transform: scale(1.1);
 }
 .activenav p:after{

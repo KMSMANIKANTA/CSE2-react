@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Home.css'
 import Carousel from './Carousel'
 import Footer from '../Footer/Footer'
 const Home = () => {
+  if(document.readyState=='complete'){
+    console.log("document loaded");
+  }
   return (
     <>
     <Navbar/>
