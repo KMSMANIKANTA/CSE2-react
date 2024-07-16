@@ -76,6 +76,10 @@ p:hover:after{
   right:0px;
   background-color: black;
   z-index: 10;
+  opacity: 0;
+}
+.display{
+  opacity: 1;
 }
 @media screen and (min-width:768px) and (max-width:1024px){
   .navbar{

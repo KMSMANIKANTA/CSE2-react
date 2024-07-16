@@ -8,7 +8,18 @@ import { Link, NavLink } from 'react-router-dom'
 const Navbar = () => {
   
   const [toggle,setToggle]=useState(false)
-  
+  const [scroll,setScroll]=useState(false)
+  useEffect(()=>{
+    window.addEventListener('scroll',()=>{
+      let h=window.scrollY;
+      if(h>70){
+        setScroll(true)
+      }
+      else{
+        setScroll(false)
+      }
+    })
+  },[])
   return (
     <>
     <div className='navbar'>
@@ -43,7 +54,7 @@ const Navbar = () => {
       {!toggle?<FaBarsStaggered className='bars'/>:<RxCrossCircled className='cross'/>}
     </div>
     </div>
-    <div className="cover">
+    <div className={`cover ${scroll?'display':''}`}>
       
     </div>
     </>
