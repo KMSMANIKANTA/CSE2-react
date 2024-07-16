@@ -10,6 +10,7 @@ const Navbar = () => {
   const [toggle,setToggle]=useState(false)
   
   return (
+    <>
     <div className='navbar'>
         <Link to='/' className='logo'>
       CSE2
@@ -42,6 +43,10 @@ const Navbar = () => {
       {!toggle?<FaBarsStaggered className='bars'/>:<RxCrossCircled className='cross'/>}
     </div>
     </div>
+    <div className="cover">
+      
+    </div>
+    </>
   )
 }
 

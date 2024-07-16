@@ -1,7 +1,7 @@
 .about{
   padding:140px 100px;
   display: flex;
-  
+  z-index: 0;
 }
 .about .image{
   min-width:400px;
