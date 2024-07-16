@@ -17,7 +17,9 @@
   color:white;
   background: transparent;
   font-weight: bold;
+  text-decoration: none;
 }
+
 .logo:hover{
   color:aqua;
   transform: scale(1.1);

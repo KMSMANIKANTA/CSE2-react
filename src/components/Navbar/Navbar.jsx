@@ -4,16 +4,16 @@ import logo from '../../assets/logo.jpg'
 import { FaBarsStaggered } from "react-icons/fa6";
 import { RxCrossCircled } from "react-icons/rx";
 
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 const Navbar = () => {
   
   const [toggle,setToggle]=useState(false)
   
   return (
     <div className='navbar'>
-      <div className="logo">
-        CSE2
-    </div>
+        <Link to='/' className='logo'>
+      CSE2
+    </Link>
     <div className={`navlinks ${toggle?'activelinks':''}`}>
       <NavLink to='/' className={(e)=>{
         return e.isActive?'link activenav':'link'

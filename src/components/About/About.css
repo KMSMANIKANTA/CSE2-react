@@ -22,6 +22,60 @@
   font-size: 20px;
   line-height: 1.5;
 }
+.about-details{
+  color:white;
+  padding:50px 100px;
+}
+.about-details .heading{
+  font-size: 25px;
+  color:aqua;
+  margin: auto;
+  width:100%;
+  text-align: center;
+}
+.about-details .cr{
+  width:100%;
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding:50px
+}
+.card{
+  width:250px;
+  height:300px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid aqua;
+  margin-bottom: 50px;
+}
+.card img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.card .desc{
+  position: absolute;
+  bottom:-100%;
+  right:0px;
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.6);
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.45s;
+}
+.card:hover{
+  border: 2px solid aqua;
+  box-shadow: 0px 0px 5px aquamarine;
+}
+.card:hover .desc{
+  bottom:0px;
+}
 @media screen and (max-width:1024px) and (min-width:768px){
   .about{
     padding:100px 4%;
@@ -30,6 +84,9 @@
   .about .image{
     width:300px;
     max-width: 400px;
+  }
+  .about-details{
+    padding:100px 4%;
   }
 }
 @media screen and (max-width:767px){
@@ -56,4 +113,14 @@
     font-size: 18px;
     line-height: 1.7;
   }
+  .about-details{
+    padding:30px 0px;
+  }
+  .about-details .cr{
+    padding:0px;
+  }
+  .card{
+    min-width:75%;
+    min-height: 350px;
+  }  
 }
