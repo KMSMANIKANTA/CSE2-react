@@ -23,7 +23,7 @@ const Classmates = () => {
           return <Person id={person.id} name={person.name} />
         })}
       </div>
-      <div className="icons">
+      <div className="updown">
         <a href="#down">
         <FaArrowCircleDown className='down'/>
         </a>
