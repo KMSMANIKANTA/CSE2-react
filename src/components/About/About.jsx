@@ -12,16 +12,16 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 const About = () => {
   useEffect(()=>{
-    Aos.init({duration:1000})
+    Aos.init({duration:2000,offset:200})
   })
   return (
     <>
       <Navbar/>
       <div className="about">
-        <div className="image">
+        <div className="image" data-aos='zoom-in'>
           <video src={rgukt} controls  loop autoplay></video>
         </div>
-        <div className="text">
+        <div className="text" data-aos='zoom-out'>
           <h4>Welcome to the official webpage of CSE Section 2 at RGUKT Nuzvid College!</h4>
           <p>We are a dedicated group of Computer Science and Engineering students at Rajiv Gandhi University of Knowledge Technologies (RGUKT), Nuzvid, Andhra Pradesh. Our section is known for its vibrant community, innovative spirit, and commitment to excellence in the field of computer science.</p>
           <p>Beyond academics, CSE Section 2 is a hub of activity and creativity. We participate in various coding competitions, hackathons, seminars, and workshops that enrich our learning experience and prepare us for future careers in technology. 
@@ -31,14 +31,14 @@ const About = () => {
       <div className="about-details">
         <h4 className='heading'>OUR CR'S</h4>
         <div className="cr">
-          <div className="card">
+          <div className="card" data-aos='zoom-in'>
             <img src={manoj} alt="" />
             <div className="desc">
               <h6>G.Manoj Kumar</h6>
               <p>E1-Sem1</p>
             </div>
           </div>
-          <div className="card">
+          <div className="card" data-aos='zoom-in' data-aos-delay='200'>
             <img src={keerthana} alt="" />
             <div className="desc">
               <h6>G.Keerthana</h6>
@@ -46,7 +46,7 @@ const About = () => {
             </div>
           </div>
           
-          <div className="card">
+          <div className="card" data-aos='zoom-in' data-aos-delay='300'>
             <img src={divya} alt="" />
             <div className="desc">
               <h6>T.Divya</h6>
@@ -54,7 +54,7 @@ const About = () => {
             </div>
           </div>
           
-          <div className="card">
+          <div className="card" data-aos='zoom-in' data-aos-delay='400'>
             <img src={manikanta} alt="" />
             <div className="desc">
               <h6>K.M.S.Manikanta</h6>
@@ -62,14 +62,14 @@ const About = () => {
             </div>
           </div>
           
-          <div className="card">
+          <div className="card" data-aos='zoom-in' data-aos-delay='500'>
             <img src={ashwanth} alt="" />
             <div className="desc">
               <h6>K.Ashwanth</h6>
               <p>E2-Sem1</p>
             </div>
           </div>
-          <div className="card">
+          <div className="card" data-aos='zoom-in' data-aos-delay='600'>
             <img src={archana} alt="" />
             <div className="desc">
               <h6>B.Archana</h6>
@@ -77,6 +77,8 @@ const About = () => {
             </div>
           </div>
         </div>
+        <h2 className='end'>Thanks for visiting...</h2>
+
       </div>
     </>
   )

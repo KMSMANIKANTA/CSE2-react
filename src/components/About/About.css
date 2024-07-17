@@ -80,6 +80,11 @@
 .card:hover img{
   transform: scale(1.2) rotate(10deg);
 }
+.end{
+  font-size: 20px;
+  text-align: center;
+  color:aqua;
+}
 @media screen and (max-width:1024px) and (min-width:768px){
   .about{
     padding:100px 4%;

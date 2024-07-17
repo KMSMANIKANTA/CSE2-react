@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import class1 from '../../assets/class1.jpg'
 import class2 from '../../assets/class2.jpg'
 import class3 from '../../assets/class3.jpg'
 import class4 from '../../assets/class4.jpg'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Carousel = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  })
   return(<>
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-aos='zoom-in'>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src={class1} class="d-block w-100" alt="..."/>
