@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../Navbar/Navbar'
 import './About.css'
 import rgukt from '../../assets/rgukt.mp4'
@@ -6,7 +6,14 @@ import manoj from '../../assets/manoj.jpg'
 import keerthana from '../../assets/keerthana.jpg'
 import divya from '../../assets/divya.jpg'
 import manikanta from '../../assets/manikanta.jpg'
+import ashwanth from '../../assets/ashwanth.jpg'
+import archana from '../../assets/archana.jpg'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const About = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  })
   return (
     <>
       <Navbar/>
@@ -52,6 +59,21 @@ const About = () => {
             <div className="desc">
               <h6>K.M.S.Manikanta</h6>
               <p>E1-Sem2</p>
+            </div>
+          </div>
+          
+          <div className="card">
+            <img src={ashwanth} alt="" />
+            <div className="desc">
+              <h6>K.Ashwanth</h6>
+              <p>E2-Sem1</p>
+            </div>
+          </div>
+          <div className="card">
+            <img src={archana} alt="" />
+            <div className="desc">
+              <h6>B.Archana</h6>
+              <p>E2-Sem1</p>
             </div>
           </div>
         </div>

@@ -74,7 +74,8 @@ p:hover:after{
   position: fixed;
   top:0px;
   right:0px;
-  background-color: black;
+  background-color: rgba(0,0,0,0.85);
+  border-bottom: 1px solid gray;
   z-index: 10;
   opacity: 0;
 }
