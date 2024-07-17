@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  scroll-behavior: smooth;
 }
  .heading{
   font-size: 25px;
@@ -23,7 +24,7 @@
   justify-content: space-between;
   text-align: center;
   margin: 20px;
-  border: 2px solid aqua;
+  border: 1px solid aqua;
   padding: 20px 0px;
   border-radius: 20px;
   color:white;
@@ -33,7 +34,7 @@
   height:150px;
   border-radius: 50%;
   overflow: hidden;
-  border: 2px solid aqua;
+  border: 1px solid aqua;
 }
 .person .image img{
   width: 100%;
@@ -51,6 +52,25 @@
 }
 .person .details p{
   color:aqua;
+}
+.icons{
+  width:60px;
+  height:50px;
+  position: fixed;
+  bottom:50px;
+  right:30px;
+  font-size: 25px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.down,.up{
+  color:aqua;
+}
+.end{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 @media screen and (max-width:1024px) and (min-width:768px){
   .classmates{
