@@ -17,8 +17,7 @@ const Home = () => {
       <div className="left" >
         <Carousel />
       </div>
-      <div className='right-container'>
-      <div className="right" data-aos='fade-left' >
+      <div className="right" data-aos='fade-up' >
         <div className="content"> 
                  Introducing the most cracking coders <span> #CSE-2</span> buddies . Overloaded with craziness and a bit of intelligence we guys are so elegant and sophisticated . And are very excited for our next engineering funny things that are making the priceless memories with great progress over time .
           </div>
@@ -26,7 +25,6 @@ const Home = () => {
           - With Love 
             #CSE2
           </div>
-      </div>
       </div>
     </div>
       <Footer/>
