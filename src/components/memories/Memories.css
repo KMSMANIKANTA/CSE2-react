@@ -1,0 +1,39 @@
+.memories{
+  color:white;
+  padding:200px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.memories h4{
+  font-size:25px;
+  text-decoration: underline;
+}
+.memories p{
+  font-size: 20px;
+  line-height: 2;
+}
+.memories p a{
+  color:aqua;
+}
+@media screen and (max-width:1024px) and (min-width:768px){
+  .memories{
+    padding:100px auto;
+  }
+}
+@media screen and (max-width:767px){
+  .memories{
+    padding:100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .memories .photos{
+    margin-top: 50px;
+  }
+  .memories .news{
+    margin-top: 50px;
+  }
+  }

@@ -14,8 +14,8 @@ const Footer = () => {
       <div className="icons">
         <p><Link className='icon' to='/'><IoHomeOutline/> Home</Link></p>
         <p><Link className='icon' to='/about'><TiInfo/> About</Link></p>
-        <p><Link className='icon' to='/news'><FaNewspaper/> News</Link></p>
-        <p><Link className='icon' to='/classmater'><BsPersonSquare/> Classmates</Link></p>
+        <p><Link className='icon' to='/memories'><FaNewspaper/> Memories</Link></p>
+        <p><Link className='icon' to='/classmates'><BsPersonSquare/> Classmates</Link></p>
         <p><Link className='icon' to='/contact-us'><FaPhoneAlt/> Contact-us</Link></p>
       </div>
       <p className='text'>&copy; copyrights reserved in the name of CSE-2 class</p>

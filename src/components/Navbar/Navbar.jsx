@@ -38,10 +38,10 @@ const Navbar = () => {
         return e.isActive?'link activenav':'link'
       }} >
       <p >About</p></NavLink>
-      <NavLink to='/news' className={(e)=>{
+      <NavLink to='/memories' className={(e)=>{
         return e.isActive?'link activenav':'link'
       }} >
-      <p>News</p></NavLink>
+      <p>Memories</p></NavLink>
       <NavLink to='/classmates' className={(e)=>{
         return e.isActive?'link activenav':'link'
       }}>
