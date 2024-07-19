@@ -1,0 +1,89 @@
+.contact{
+  padding:200px 100px;
+  color:white;
+  display: flex;
+  justify-content: space-around;
+}
+.contact .map{
+  width:400px;
+  height:400px;
+}
+.contact form{
+  width:400px;
+  height:400px;
+  border: 1px solid aqua;
+  padding: 20px 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 5px aqua;
+}
+form input{
+  width:80%;
+  border-radius: 10px;
+  font-size: 16px;
+  margin:20px 20px;
+  padding:10px;
+  color:white;
+  background: transparent;
+  border: 1px solid aqua;
+  box-shadow: 0px 0px 2px aqua;
+}
+form textarea{
+  width:80%;
+  border-radius: 10px;
+  margin-top: 20px;
+  background: transparent;
+  color:white;
+  border: 1px solid aqua;
+  padding:10px;
+}
+form button{
+  margin-top: 20px;
+  width:150px;
+  padding:5px;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: transparent;
+  color:aqua;
+  border: 1px solid aqua;
+  margin-bottom: 20px;
+  transition: 0.34s;
+}
+form button:hover{
+  background-color: white;
+  color:black
+}
+@media screen and (max-width:1024px) and (min-width:768px){
+  .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  form{
+    width:70%;
+    margin-bottom: 100px;
+  }
+  .map{
+    width:70%;
+    margin: auto;
+  }
+}
+@media screen and (max-width:767px){
+  .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:100px 0px
+  }
+  .contact form{
+    width:90%;
+    margin-bottom: 60px;
+  }
+ .contact .map{
+    width:90%;
+    margin: auto;
+  }
+}
