@@ -86,6 +86,9 @@ p:hover:after{
   .navbar{
     padding:20px 4%;
   }
+  .navlinks{
+    top:-200%;
+  }
 }
 @media screen and (max-width:767px) {
   .navbar {
@@ -93,7 +96,7 @@ p:hover:after{
   }
   .navlinks {
     position: fixed;
-    top:-160%;
+    top:-260%;
     width:100%;
     display: flex;
     flex-direction: column;

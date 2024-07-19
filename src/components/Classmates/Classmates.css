@@ -6,15 +6,6 @@
   align-items: center;
   scroll-behavior: smooth;
 }
- .heading{
-  font-size: 25px;
-  text-align: center;
-  margin:100px 0px 10px 0px;
-  color:white;
-}
-.heading span{
-  color:aqua;
-}
 .person{
   width:230px;
   height: 300px;

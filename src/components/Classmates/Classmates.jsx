@@ -7,6 +7,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { FaArrowCircleUp } from "react-icons/fa";
 import { FaArrowCircleDown } from "react-icons/fa";
+import Heading from '../Heading/Heading'
 
 const Classmates = () => {
   const [people,setPeople]=useState(data);
@@ -17,7 +18,7 @@ const Classmates = () => {
   return (
     <>
       <Navbar/>
-        <h2 className='heading' data-aos='zoom-in' id='top'>Our <span>Classmates</span></h2>
+      <Heading title={"Our"} spantitle={"Classmates"}/>
       <div className="classmates">
         {people.map((person)=>{
           return <Person id={person.id} name={person.name} />

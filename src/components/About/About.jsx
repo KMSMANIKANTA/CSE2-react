@@ -9,6 +9,7 @@ import manikanta from '../../assets/manikanta.jpg'
 import ashwanth from '../../assets/ashwanth.jpg'
 import archana from '../../assets/archana.jpg'
 import Aos from 'aos'
+import Heading from '../Heading/Heading'
 import 'aos/dist/aos.css'
 const About = () => {
   useEffect(()=>{
@@ -17,6 +18,7 @@ const About = () => {
   return (
     <>
       <Navbar/>
+      <Heading title={"About"} spantitle={"Us"}/>
       <div className="about">
         <div className="image" data-aos='zoom-in'>
           <video src={rgukt} controls  loop autoplay></video>
